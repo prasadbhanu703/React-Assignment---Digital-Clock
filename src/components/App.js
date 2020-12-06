@@ -17,6 +17,7 @@ class App extends Component {
         )
     }
     getTimeString() {
+        // console.log(this.state.time);
         const curTime = this.state.time;
         const [hours, minutes, seconds] = [curTime.getHours(), curTime.getMinutes(), curTime.getSeconds()];
 
