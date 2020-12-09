@@ -17,7 +17,7 @@ class App extends Component {
         )
     }
     componentDidMount() {  
-        const interval = setInterval( 
+        this.interval = setInterval( 
             () => this.setState({
                 time: new Date()
             }), 
